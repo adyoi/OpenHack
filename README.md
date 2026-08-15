@@ -1,5 +1,9 @@
 # OpenHack
 
+<p align="center">
+  <img src="assets/logo.png" alt="Logo OpenHack" width="200">
+</p>
+
 Template workspace opencode untuk keamanan siber / penetration testing — berisi 4 agen khusus (Hunt, Code, Hack, Chat). Bukan project aplikasi: setiap project yang dikerjakan diletakkan di dalam `project/`.
 
 ## Agen
