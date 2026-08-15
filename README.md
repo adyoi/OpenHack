@@ -38,6 +38,13 @@ Template workspace opencode untuk keamanan siber / penetration testing — beris
 > folder `project/` (subfolder baru per target/engagement) agar root repo
 > tetap bersih.
 
+## Screenshot
+
+| | | |
+|---|---|---|
+| ![Screenshot 1](assets/screenshot1.png) | ![Screenshot 2](assets/screenshot2.png) | |
+| ![Screenshot 3](assets/screenshot3.png) | ![Screenshot 4](assets/screenshot4.png) | |
+
 ## Instalasi
 
 **Prasyarat:** [Node.js](https://nodejs.org) LTS sudah terpasang (untuk cara via npm).
