@@ -36,18 +36,51 @@ Template workspace opencode untuk keamanan siber / penetration testing — beris
 
 ## Instalasi
 
-**Prasyarat:** [Node.js](https://nodejs.org) LTS sudah terpasang.
+**Prasyarat:** [Node.js](https://nodejs.org) LTS sudah terpasang (untuk cara via npm).
+
+### Windows
 
 ```powershell
-# 1. Install opencode terlebih dahulu (pilih salah satu cara)
-npm install -g opencode-ai      # via npm
-choco install opencode          # via Chocolatey (Windows)
-scoop install opencode          # via Scoop (Windows)
+# via npm
+npm install -g opencode-ai
 
-# 2. Verifikasi instalasi
+# atau via Chocolatey
+choco install opencode
+
+# atau via Scoop
+scoop install opencode
+```
+
+### Linux
+
+```bash
+# via install script resmi (direkomendasikan)
+curl -fsSL https://opencode.ai/install | bash
+
+# atau via npm
+npm install -g opencode-ai
+
+# atau via package manager (contoh Arch Linux)
+sudo pacman -S opencode
+```
+
+### macOS
+
+```bash
+# via Homebrew (direkomendasikan)
+brew install anomalyco/tap/opencode
+
+# atau via npm
+npm install -g opencode-ai
+```
+
+### Verifikasi & Clone
+
+```powershell
+# 1. Verifikasi instalasi
 opencode --version
 
-# 3. Clone repo (adyoi/OpenHack)
+# 2. Clone repo (adyoi/OpenHack)
 git clone https://github.com/adyoi/OpenHack.git
 cd OpenHack
 ```
@@ -87,3 +120,11 @@ OpenHack/
 - Config opencode **tidak hot-reload**: setelah mengubah `opencode.json`, definisi agen, skill, atau plugin — restart opencode agar berlaku.
 - `project/` adalah tempat kerja per-user; isinya tidak dicantumkan di repo (lihat `.gitignore`). Tooling internal seperti C2 framework dan cryptovault dipindah ke sini setelah selesai dikembangkan.
 - `node_modules` tidak disimpan; regenerasi via `npm install` di `.opencode/` jika perlu mengembangkan plugin.
+
+## Kontributor
+
+- [opencode](https://opencode.ai) — AI coding agent open source yang menjadi basis dari template ini
+
+## Lisensi
+
+[MIT License](https://opensource.org/licenses/MIT) — bebas digunakan, dimodifikasi, dan didistribusikan dengan tetap menyertakan pemberitahuan hak cipta asli.
