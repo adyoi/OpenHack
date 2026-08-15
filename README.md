@@ -84,9 +84,9 @@ npm install -g opencode-ai
 # 1. Verifikasi instalasi
 opencode --version
 
-# 2. Clone repo (adyoi/openhack)
-git clone https://github.com/adyoi/openhack.git
-cd openhack
+# 2. Clone repo (adyoi/OpenHack)
+git clone https://github.com/adyoi/OpenHack.git
+cd OpenHack
 ```
 
 > Setelah install, buka ulang terminal agar perintah `opencode` masuk ke PATH.
