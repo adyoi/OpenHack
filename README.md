@@ -118,7 +118,7 @@ OpenHack/
 ## Catatan
 
 - Config opencode **tidak hot-reload**: setelah mengubah `opencode.json`, definisi agen, skill, atau plugin — restart opencode agar berlaku.
-- `project/` adalah tempat kerja per-user; isinya tidak dicantumkan di repo (lihat `.gitignore`). Tooling internal seperti C2 framework dan cryptovault dipindah ke sini setelah selesai dikembangkan.
+- `project/` adalah tempat kerja per-user; isinya tidak dicantumkan di repo (lihat `.gitignore`).
 - `node_modules` tidak disimpan; regenerasi via `npm install` di `.opencode/` jika perlu mengembangkan plugin.
 
 ## Kontributor
