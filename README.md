@@ -34,10 +34,32 @@ Template workspace opencode untuk keamanan siber / penetration testing — beris
 > folder `project/` (subfolder baru per target/engagement) agar root repo
 > tetap bersih.
 
+## Instalasi
+
+**Prasyarat:** [Node.js](https://nodejs.org) LTS sudah terpasang.
+
+```powershell
+# 1. Install opencode terlebih dahulu (pilih salah satu cara)
+npm install -g opencode-ai      # via npm
+choco install opencode          # via Chocolatey (Windows)
+scoop install opencode          # via Scoop (Windows)
+
+# 2. Verifikasi instalasi
+opencode --version
+
+# 3. Clone repo (adyoi/OpenHack)
+git clone https://github.com/adyoi/OpenHack.git
+cd OpenHack
+```
+
+> Setelah install, buka ulang terminal agar perintah `opencode` masuk ke PATH.
+> Saat pertama kali dijalankan, opencode akan meminta koneksi ke provider
+> model (Anthropic, OpenAI, Google, atau model lokal).
+
 ## Memulai
 
 ```powershell
-# Clone repo ini, lalu jalankan opencode dari root
+# Jalankan opencode dari root project
 opencode
 
 # Setiap session baru bekerja di dalam project/ (sub-project default)
