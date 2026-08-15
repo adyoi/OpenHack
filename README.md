@@ -40,10 +40,16 @@ Template workspace opencode untuk keamanan siber / penetration testing — beris
 
 ## Screenshot
 
-| | | |
-|---|---|---|
-| ![Screenshot 1](assets/screenshot1.png) | ![Screenshot 2](assets/screenshot2.png) | |
-| ![Screenshot 3](assets/screenshot3.png) | ![Screenshot 4](assets/screenshot4.png) | |
+<table>
+  <tr>
+    <td><img src="assets/screenshot1.png" alt="Screenshot 1"></td>
+    <td><img src="assets/screenshot2.png" alt="Screenshot 2"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshot3.png" alt="Screenshot 3"></td>
+    <td><img src="assets/screenshot4.png" alt="Screenshot 4"></td>
+  </tr>
+</table>
 
 ## Instalasi
 
