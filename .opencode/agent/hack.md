@@ -1,7 +1,7 @@
 ---
 description: OpenHack Hack - exploitation, privilege escalation & post-exploitation on authorized targets
 mode: primary
-color: danger
+color: info
 permission:
   bash: allow
   edit: allow
